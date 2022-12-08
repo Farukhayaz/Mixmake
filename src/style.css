@@ -1,0 +1,227 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.heroSection {
+    display: flex;
+    height: 40px;
+    width: 40%;
+    /* border: 1px solid #000; */
+    margin-left: 32%;
+    padding: 5px;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+
+.heroSection>a {
+    color: #000;
+}
+
+.heroSection>a:hover {
+    color: white;
+    transition: 1s;
+}
+
+.hero1para {
+    width: 50%;
+    font-size: 8vh;
+    margin-top: 11%;
+    margin-left: 28%;
+    text-transform: uppercase;
+    font-size: 5vh;
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'exo', sans-serif;
+    visibility: visible;
+    transform: skewY(-8deg);
+}
+
+.hero1head {
+    width: 60%;
+    font-family: 'exo', sans-serif;
+    font-style: italic;
+    text-shadow: 3px 3px 0px #ffffff;
+    text-align: center;
+    font-weight: 900;
+    color: #000;
+    line-height: 20vh;
+    margin-top: 0%;
+    margin-left: 23%;
+    font-size: 20vh;
+    transform: skewY(-8deg);
+}
+
+.hero2para {
+    width: 50%;
+    margin: 0% 30%;
+    font-size: 5vh;
+    transform: skewY(-8deg);
+    text-transform: uppercase;
+    font-size: 5vh;
+    margin-top: -8%;
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'exo', sans-serif;
+    visibility: visible;
+
+}
+
+
+.aboutpara {
+    width: 82%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.aboutparali {
+    font-size: 40px;
+    text-align: center;
+}
+
+.gig-images>.cimg {
+    height: 55vh
+}
+
+.gigsSection {
+    display: flex;
+    height: 40px;
+    width: 40%;
+    margin-left: 32%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+
+}
+
+.gigsSection>a {
+    color: White;
+}
+
+.gigspara {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+img {
+    margin-bottom: 15px;
+}
+
+
+.photoSection {
+    display: flex;
+    height: 40px;
+    width: 40%;
+    margin-left: 32%;
+    padding: 5px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+
+}
+
+.photoSection>a {
+    color: white;
+}
+
+
+.icon {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.mixehead {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ca {
+    height: 40vh;
+    background-color: black;
+}
+
+.aboutSection>a {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 0% 5%;
+    border-top: 2px solid #FFDD00;
+}
+
+.aboutSection>a:hover {
+    background-color: #FFDD00;
+}
+
+.aboutSection {
+    display: flex;
+    height: 68px;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+#about-im:hover {
+    opacity: 0.7;
+    transition-duration: 1s;
+}
+
+.input {
+    width: 50%;
+    margin: 2% 25%;
+}
+
+.inp2 {
+    height: 8vh;
+    width: 45%;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    margin: 5px;
+    padding-left: 2.5vw;
+    transition-duration: 1s;
+}
+
+.inp2:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.inp4 {
+    display: flex;
+    height: 35vh;
+    width: 98%;
+    background-color: rgb(237, 237, 237);
+    color: silver;
+    border: none;
+    margin: 7px;
+    margin-top: 20px;
+    padding-left: 2.5vw;
+    padding-top: 2vh;
+    transition-duration: 1s;
+}
+
+.inp4:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.icon:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.ab>a:hover {
+    color: black;
+}
